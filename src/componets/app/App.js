@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Login from "../login/Login";
 
 function App() {
   return (
-    <div className="App">
-        <h1>Building Spitify Clone</h1>
+    <div className="app">
+        <Login />
     </div>
   );
 }
